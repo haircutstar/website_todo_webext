@@ -1,6 +1,6 @@
 {
   "description": "Simple ToDo List per webpage, help keep track of stuff to do for webmaster or designer. All data is stored locally",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Webmaster Todo",
   "version": "1.1",
   "homepage_url": "https://github.com/haircutstar/website_todo_webext",
@@ -15,7 +15,7 @@
   },
   "browser_action": {
     "default_icon": "icons/logo_32.png",
-    "default_title": "Web Designer ToDo",
+    "default_title": "Webmaster ToDo",
     "default_popup": "popup/index.html"
   },
   "permissions": ["storage", "activeTab", "tabs"]
